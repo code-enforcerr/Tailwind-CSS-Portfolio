@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Styles.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="flex sm:flex-none md:flex-none gap-4 py-9 border-b-2 border-rgb(169,169,171)">
+    <nav class="flex gap-4 py-9 border-b-2 border-rgb(169,169,171)">
         <h4 class="mx-40 font-bold mt-2">MY<span class="text-red-700 font-bold">PORTFOLIO</span></h4>
         <ul class="flex gap-5 text-gray-400 mt-2 mr-52">
             <li><a href="about.html" class="hover:text-red-700">ABOUT ME</a></li>
@@ -60,13 +61,10 @@
             <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet <br> consect etur adipisicing elit. <br> Blanditiis, velit. velvet maue</p>
         </div>
 
-    </div><br>
-    <br>
-    <br>
-    <br>
+    </div>
        
     <div class="text-center">
-      <h4 class="font-bold text-3xl mb-10">Why You Hire Me For <span class="text-red-700 font-bold">Your Next Project?</span></h4>
+      <h4 class="font-bold text-3xl mb-10 mt-20">Why You Hire Me For <span class="text-red-700 font-bold">Your Next Project?</span></h4>
       <p class="text-sm text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat ratione itaque optio deleniti provident <br> magnam doloremque, ex eos natus a quo, voluptates nihil similique voluptatum dolorum esse. Delectus, voluptatum velit?</p>
     </div><br><br>
     <br><br>
@@ -80,27 +78,46 @@
             </div>
 
             <div class="bg-white border-2 border-gray-300 h-220 w-190 p-10 mr-1 rounded-3xl shadow-2xl">
-                <h3 class="mb-5">Product Design</h3>
-                <p class="text-sm">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Lorem ipsum dolor sital <br> amet consectetur adipisicing elit Quisqu.</p></p>
+                <h3 class="mb-5 font-medium">Product Design</h3>
+                <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Lorem ipsum dolor sital <br> amet consectetur adipisicing elit Quisqu.</p></p>
             </div>
         </div>
 
         <div>
             <div class="bg-white border-2 border-gray-300 h-220 w-190 p-10 mr-1 rounded-3xl shadow-2xl">
-                <h3 class="mb-5">Graphic Design</h3>
-                <p class="text-sm">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Lorem ipsum dolor sital <br> amet consectetur adipisicing elit Quisqu.</p></p>
+                <h3 class="mb-5 font-medium">Graphic Design</h3>
+                <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Lorem ipsum dolor sital <br> amet consectetur adipisicing elit Quisqu.</p></p>
             </div>
 
             <div class="bg-white border-2 border-gray-300 h-220 w-190 p-10 mr-1 rounded-3xl shadow-2xl">
-                <h3 class="mb-5">Mockup Design</h3>
-                <p class="text-sm">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Lorem ipsum dolor sital <br> amet consectetur adipisicing elit Quisqu.</p></p>
+                <h3 class="mb-5 font-medium">Mockup Design</h3>
+                <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Lorem ipsum dolor sital <br> amet consectetur adipisicing elit Quisqu.</p></p>
             </div>
         </div><br>
 
         <img src="office img.png" alt="" class="ml-4 h-96 rounded-lg mb-2">
-        </div><br>
+        </div>
+
+        <form class="my-10">
+
+            <h1 class="text-center text-3xl text-gray-400 mb-4">Contact Me</h1>
+            <div class="flex justify-center gap-2">
+                <input type="text" placeholder="Name" class="h-10 w-3/12 border-2 border-red-700 p-4">
+                <input type="text" placeholder="Email" class="h-10 w-3/12 border-2 border-red-700 p-4">
+            </div>
+
+            <div class="flex justify-center mt-3">
+                <textarea placeholder="Message" class="border-2 border-red-700 p-4 w-6/12 h-48"></textarea>
+            </div>
+
+            <div class="flex justify-center mt-3">
+                <button type="button" class="border-2 hover:bg-red-400 hover:text-white border-red-600 rounded-lg py-1 px-1 text-sm font-bold text-red-700 h-10 w-40">Submit</button>
+
+            </div>
+            
+        </form>
     
-        <footer class="text-center text-gray-400 mb-3 border-b- border-gray-200">
+        <footer class="text-center text-gray-400 my-3 border-t-2 p-2 border-gray-200">
             <p>Copyright 2024. All rights reserved.</p>
         </footer>
 </body>
