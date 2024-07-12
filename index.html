@@ -1,124 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Styles.css">
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <nav class="flex gap-4 py-9 border-b-2 border-rgb(169,169,171)">
-        <h4 class="mx-40 font-bold mt-2">MY<span class="text-red-700 font-bold">PORTFOLIO</span></h4>
-        <ul class="flex gap-5 text-gray-400 mt-2 mr-52">
-            <li><a href="about.html" class="hover:text-red-700">ABOUT ME</a></li>
-            <li><a href="works.html" class="hover:text-red-700">WORKS</a></li>
-            <li><a href="portfolio.html" class="hover:text-red-700">PORTFOLIO</a></li>
-            <li><a href="services.html" class="hover:text-red-700">SERVICES</a></li>
-            <li><a href="pricing.html" class="hover:text-red-700">PRICING</a></li>
-        </ul>
 
-        <button type="button" class="border-2 hover:bg-red-400 hover:text-white border-red-600 rounded-lg py-1 px-1 text-sm font-bold text-red-700 h-10 w-40">CONTACT ME</button>
+<body>
+    <nav class="bg-white py-3 z-50 sm:flex sm:justify-around sticky top-0 border-b-2 border-rgb(169,169,171)">
+        <div class=" flex flex-col gap-3 sm:flex-row lg:flex lg:ml-20 lg:flex-row md:flex md:flex-row">
+            <h4 class="font-bold text-center">MY<span class="text-red-700 font-bold">PORTFOLIO</span></h4>
+            <ul class=" flex gap-3 mx-auto sm:ml-10 text-gray-400">
+                <li><a href="about.html" class="hover:text-red-700 text-xs">ABOUT ME</a></li>
+                <li><a href="works.html" class="hover:text-red-700 text-xs">WORKS</a></li>
+                <li><a href="portfolio.html" class="hover:text-red-700 text-xs">PORTFOLIO</a></li>
+                <li><a href="services.html" class="hover:text-red-700 text-xs">SERVICES</a></li>
+                <li><a href="pricing.html" class="hover:text-red-700 text-xs lg:text-sm md:text-sm">PRICING</a></li>
+            </ul>
+
+            <button type="button"
+                class="border-2 hover:bg-red-400 mx-auto sm:ml-10 hover:text-white border-red-600 rounded-lg py-1 px-13 text-sm font-bold text-red-700 h-10 w-40">CONTACT
+                ME</button>
+        </div>
     </nav>
 
-    <div class="flex justify-center gap-20 mt-32 border-b-2">
-        <div>
-            <h4 class="text-3xl mb-5">Hi, I Am Akande Rasak,<p>
-                <span class="text-red-700">Aspiring Full Stack Developer</span>
+    <div
+        class="flex flex-col gap-20 mt-20 border-b-2 lg:flex-row lg:items-center lg:justify-between  lg:border-b-2 lg:mb-10">
+        <div class="lg:w-1/2">
+            <h4 class="text-xl text-center lg:text-start mb-5 lg:text-3xl">Hi, I Am Akande Rasak,<p>
+                    <span class="text-red-700">Aspiring Full Stack Developer</span>
             </h4>
-            
-        <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet aperiam vero <br> quam molestias dolore error magnam optio beatae! Laboriosam rerum eaque ex <br> quis iusto cupiditate ut molestias consequuntur ducimus error!</p><br>
 
-        <span>
-            <button type="button" class=" hover:bg-red-400 hover:text-white border-2 border-red-600 rounded-lg py-1 px-1 text-sm font-bold text-red-700 h-10 w-40">KNOW MORE</button>
-            <button type="button" class=" hover:bg-red-400 hover:text-white border-2 border-red-600 rounded-lg py-1 px-1 text-sm font-bold text-red-700 h-10 w-40">SEE MY PROJECTS</button>
-        </span>
+            <p class="text-sm text-gray-400 lg:text-start text-center mb-5 sm:px-40 md:text-xl lg:text-sm lg:mb-10">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet aperiam vero quam molestias dolore
+                error magnam optio beatae! Laboriosam rerum eaque ex quis iusto cupiditate ut molestias consequuntur
+                ducimus error!</p>
+
+            <span class="flex justify-center gap-3 lg:justify-center lg:px-0">
+                <button type="button"
+                    class=" hover:bg-red-400 hover:text-white border-2 border-red-600 sm:mb-3 rounded-lg py-1 px-1 text-sm font-bold text-red-700 h-10 w-40">KNOW
+                    MORE</button>
+                <button type="button"
+                    class=" hover:bg-red-400 hover:text-white border-2 border-red-600 rounded-lg py-1 px-1 text-sm font-bold sm:mb-2 text-red-700 h-10 w-40">SEE
+                    MY PROJECTS</button>
+            </span>
         </div>
 
-        <div class="mb-3 shadow-2xl">
-            <img src="handsome-black-man-standing-white-wall.jpg" alt="" class="rounded-lg" height="330px" width="400px">
+        <div class="mb-3 lg:mb-5 shadow-black lg:w-1/2">
+            <img src="images/handsome-black-man-standing-white-wall.jpg" alt=""
+                class="object-cover lg:border-2 lg:border-red-600 lg:rounded-l-full lg:rounded-r sm:rounded-lg mx-auto block h-80 lg:h-auto">
         </div>
-    </div><br>
+    </div>
 
-    <div class="flex justify-center gap-2 mt-10">
+    <div class="mt-10 text-center lg:flex sm:flex sm:px-16 sm:flex-wrap md:px-0">
 
-        <div class="bg-white border-2 border-gray-300 h- w-190 p-10 mr-4 rounded-3xl shadow-2xl">
-            <img src="world-wide-web.png" alt="" height="40px" width="40px" id="img">
+        <div class="bg-white border-2 border-gray-300 mb-10 w-80 sm:60 h-72 mx-auto p-10 rounded-3xl shadow-2xl">
+            <img src="images/world-wide-web.png" alt="" id="img" class="h-10 w-10 mx-auto">
             <h4 class="my-5">Website Design</h4>
-            <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet <br> consec tetur adipisicing elit. <br> Blanditiis, velit. black vluer</p>
+            <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet <br> consec tetur adipisicing elit. <br>
+                Blanditiis, velit. black vluer</p>
         </div>
 
-        <div class="bg-white border-2 border-gray-300 h-200 w-190 p-10 mr-4 rounded-3xl shadow-2xl">
-            <img src="dashboard.png" alt="" height="40px" width="40px" id="img">
+        <div class="bg-white border-2 border-gray-300 w-80 sm:60 mb-10 h-72 mx-auto p-10 rounded-3xl shadow-2xl">
+            <img src="images/dashboard.png" alt="" id="img" class="h-10 w-10 mx-auto">
             <h4 class="my-5">Dashboard Design</h4>
-            <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet <br> consecte tur adipisicing elit. <br> Blanditiis, velit. Blue, Green</p>
+            <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet <br> consecte tur adipisicing elit. <br>
+                Blanditiis, velit. Blue, Green</p>
         </div>
 
-        <div class="bg-white border-2 border-gray-300 h-200 w-190 p-10 mr-4 rounded-3xl shadow-2xl">
-            <img src="iphone-5.png" alt="" height="40px" width="40px" id="img">
+        <div class="bg-white border-2 border-gray-300 w-80 sm:-60 h-72 mx-auto p-10 rounded-3xl shadow-2xl">
+            <img src="images/iphone-5.png" id="img" class="h-10 w-10 mx-auto">
             <h4 class="my-5">Mobile App Design</h4>
-            <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet <br> consect etur adipisicing elit. <br> Blanditiis, velit. velvet maue</p>
+            <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet <br> consect etur adipisicing elit. <br>
+                Blanditiis, velit. velvet maue</p>
         </div>
 
     </div>
-       
-    <div class="text-center">
-      <h4 class="font-bold text-3xl mb-10 mt-20">Why You Hire Me For <span class="text-red-700 font-bold">Your Next Project?</span></h4>
-      <p class="text-sm text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat ratione itaque optio deleniti provident <br> magnam doloremque, ex eos natus a quo, voluptates nihil similique voluptatum dolorum esse. Delectus, voluptatum velit?</p>
-    </div><br><br>
-    <br><br>
+
+    <div class="text-center mb-20">
+        <h4 class="text-xl mb-10 mt-20 md:text-3xl md:font-bold">Why You Hire Me For <span
+                class="text-red-700 font-bold">Your Next Project?</span></h4>
+        <p class="text-sm text-gray-400 sm:px-40 md:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Placeat ratione itaque optio deleniti provident magnam doloremque, ex eos natus a quo, voluptates nihil
+            similique voluptatum dolorum esse. Delectus, voluptatum velit?</p>
+    </div>
 
 
-        <div class="flex justify-center border-b-2 border-gray-200">
-            <div>
-            <div class="bg-green-50 border-2 border-gray-300 w-190 p-10 mr-1 rounded-3xl shadow-2xl">
-                <h3 class="font-medium mb-5">Branding Design</h3>
-                <p class="text-sm text-gray-400 ">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Lorem ipsum dolor sital <br> amet consectetur adipisicing elit Quisqu.</p>
-            </div>
+    <div class=" justify-center border-b-2 border-gray-200 sm:flex sm:px-16 sm:flex-wrap md:px-10 lg:flex lg:flex-wrap">
 
-            <div class="bg-white border-2 border-gray-300 h-220 w-190 p-10 mr-1 rounded-3xl shadow-2xl">
-                <h3 class="mb-5 font-medium">Product Design</h3>
-                <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Lorem ipsum dolor sital <br> amet consectetur adipisicing elit Quisqu.</p></p>
+        <div
+            class="bg-green-50 lg:hover:bg-white border-2 border-gray-300 w-80 h-72 mx-auto text-center p-10 mb-10 rounded-3xl shadow-2xl">
+            <img src="images/brand_image.png" alt="" class="h-10 w-10 mx-auto mb-5 rounded-full">
+            <h3 class="font-medium mb-5">Branding Design</h3>
+            <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+                sital amet consectetur adipisicing elit Quisqu.</p>
+        </div>
+
+        <div
+            class="bg-white lg:hover:bg-green-50 border-2 border-gray-300 h-220 w-80 h-72 mx-auto text-center p-10 mb-10 rounded-3xl shadow-2xl">
+            <img src="images/product-image.jpg" alt="" class="h-10 w-10 mb-5 mx-auto rounded-full">
+            <h3 class="mb-5 font-medium">Product Design</h3>
+            <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+                sital amet consectetur adipisicing elit Quisqu.</p>
+            </p>
+        </div>
+
+        <div
+            class="bg-white border-2 lg:hover:bg-green-50 border-gray-300 h-220 w-80 h-72 mx-auto text-center p-10 mb-10 rounded-3xl shadow-2xl">
+            <img src="images/graphic-image.jpg" alt="" class="h-10 w-10 mb-5 mx-auto rounded-full">
+            <h3 class="mb-5 font-medium">Graphic Design</h3>
+            <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+                sital met consectetur adipisicing elit Quisqu.</p>
+            </p>
+        </div>
+
+        <div
+            class="bg-white border-2 lg:hover:bg-green-50 border-gray-300 h-220 w-80 h-72 mx-auto text-center p-10 rounded-3xl shadow-2xl">
+            <img src="images/mockup-image.jpg" alt="" class="h-10 w-10 mb-5 mx-auto rounded-full">
+            <h3 class="mb-5 font-medium">Mockup Design</h3>
+            <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
+                sital amet consectetur adipisicing elit Quisqu.</p>
+            </p>
+        </div>
+
+        <div class="sm:w-3/4 sm:object-contain lg:object-cover">
+            <img src="images/office img.png" alt="" class="h-96 w-full object-cover my-20 rounded-lg mb-2">
+        </div>
+    </div>
+
+       <div class="relative mt-16 lg:text-start">
+        <video src="web-dev-video 2.mp4" class="z-auto relative h-96 w-full lg:max-w-screen-lg lg:rounded-r-3xl lg:mx-auto lg:h-96 border-y-2 border-red-600 object-cover"
+            controls autoplay></video>
+        <div class="">
+            <h1 class="absolute -mt-60 ml-16 text-white font-bold text-center lg:ml-96  text-xl mb-5">Website <span
+                    class="text-red-600 font-bold">Development</span></h1>
+        </div>            
+        </div>
+
+        <div class="relative mt-16 lg:text-start">
+            <video src="wed-dev-video 1.mp4" class="z-auto relative h-96 w-full lg:max-w-screen-lg lg:rounded-r-3xl lg:mx-auto lg:h-96 border-y-2 border-red-600 object-cover"
+                controls autoplay></video>
+            <div class="">
+                <h1 class="absolute -mt-60 ml-16 text-red-600 font-bold text-center lg:ml-96  text-xl mb-5">Mobile <span
+                        class="text-white font-bold">App Development</span></h1>
             </div>
         </div>
 
-        <div>
-            <div class="bg-white border-2 border-gray-300 h-220 w-190 p-10 mr-1 rounded-3xl shadow-2xl">
-                <h3 class="mb-5 font-medium">Graphic Design</h3>
-                <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Lorem ipsum dolor sital <br> amet consectetur adipisicing elit Quisqu.</p></p>
-            </div>
-
-            <div class="bg-white border-2 border-gray-300 h-220 w-190 p-10 mr-1 rounded-3xl shadow-2xl">
-                <h3 class="mb-5 font-medium">Mockup Design</h3>
-                <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Lorem ipsum dolor sital <br> amet consectetur adipisicing elit Quisqu.</p></p>
-            </div>
-        </div><br>
-
-        <img src="office img.png" alt="" class="ml-4 h-96 rounded-lg mb-2">
-        </div>
 
         <form class="my-10">
 
             <h1 class="text-center text-3xl text-gray-400 mb-4">Contact Me</h1>
-            <div class="flex justify-center gap-2">
-                <input type="text" placeholder="Name" class="h-10 w-3/12 border-2 border-red-700 p-4">
-                <input type="text" placeholder="Email" class="h-10 w-3/12 border-2 border-red-700 p-4">
+            <div class="flex flex-col mx-auto sm:flex sm:flex-col">
+                <input type="text" placeholder="Name" class="h-10 mb-5 mx-auto w-3/4 border-2 border-red-700 p-4">
+                <input type="text" placeholder="Email" class="h-10 mx-auto w-3/4 border-2 border-red-700 p-4">
+            </div>
+
+            <div class="mt-3 flex sm:flex">
+                <textarea placeholder="Message"
+                    class="border-2 border-red-700 mx-auto sm:mx-auto p-4 w-3/4 h-48"></textarea>
             </div>
 
             <div class="flex justify-center mt-3">
-                <textarea placeholder="Message" class="border-2 border-red-700 p-4 w-6/12 h-48"></textarea>
-            </div>
-
-            <div class="flex justify-center mt-3">
-                <button type="button" class="border-2 hover:bg-red-400 hover:text-white border-red-600 rounded-lg py-1 px-1 text-sm font-bold text-red-700 h-10 w-40">Submit</button>
+                <button type="button"
+                    class="border-2 hover:bg-red-400 hover:text-white border-red-600 rounded-lg py-1 px-1 text-sm font-bold text-red-700 h-10 w-40">Submit</button>
 
             </div>
-            
+
         </form>
-    
+
         <footer class="text-center text-gray-400 my-3 border-t-2 p-2 border-gray-200">
             <p>Copyright 2024. All rights reserved.</p>
         </footer>
 </body>
+
 </html>
